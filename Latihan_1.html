@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Harade Apparel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+    }
+
+    /* HEADER */
+    header {
+      background: #09ff00;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 20px;
+    }
+
+    nav a {
+      color: #ffffff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    /* HERO */
+    .hero {
+      background: url('https://via.placeholder.com/1200x400') center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(0, 0, 0);
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    /* SECTION */
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    /* PRODUCT GRID */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .price {
+      color: red;
+      font-weight: bold;
+    }
+
+    /* CATEGORY */
+    .categories {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .categories div {
+      background: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      padding: 10px 15px;
+      border-radius: 20px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: rgb(55, 255, 0);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Harade Apparel</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Categories</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  New Collection 2026
+</div>
+
+<!-- Produk Kami -->
+<section>
+  <h2>Produk Kami</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="GAMBAR/gambar_10.jpg">
+      <h3>Apparel T-Shirt White</h3>
+      <p class="price">Rp 99.000</p>
+    </div>
+
+    <div class="card">
+      <img src="GAMBAR/gambar_11.jpg">
+      <h3>Apparel shirt products</h3>
+      <p class="price">Rp 199.000</p>
+    </div>
+
+    <div class="card">
+      <img src="GAMBAR/gambar_4.jpg">
+      <h3>Apparel Kemeja Original</h3>
+      <p class="price">Rp 165.000</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- BEST SELLER -->
+<section>
+  <h2>Branded Shoe Products</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="GAMBAR/gambar_12.jpg">
+      <h3>Harade Puma Original Product</h3>
+      <p class="price">Rp 1.500.000</p>
+    </div>
+
+    <div class="card">
+      <img src="GAMBAR/gambar_7.jpg">
+      <h3>Harade Warszawa</h3>
+      <p class="price">Rp 1.800.000</p>
+    </div>
+
+<div class="card">
+      <img src="GAMBAR/gambar_14.jpg">
+      <h3>Harade Vans</h3>
+      <p class="price">Rp 500.000</p>
+</div>
+
+  </div>
+</section>
+<!-- CATEGORIES -->
+<section>
+  <h2>Tentang Kami</h2>
+  <div class="categories">
+    <div>Toko kami menyediakan berbagai pilihan fashion seperti kemeja, kaos, dan sepatu dengan model kekinian dan harga terjangkau. Cocok untuk gaya sehari-hari dengan kualitas yang nyaman dipakai.
+
+Belanja mudah, pengiriman cepat, dan siap bikin penampilan kamu makin keren!</div>
+    
+  </div>
+</section>
+ </div>
+</section>
+<!-- FOOTER -->
+<footer>
+  <p>© Harade Apparel. Terima kasih sudah berkunjung, semoga menemukan yang kamu suka! 2026
+.</p>
+</footer>
+
+</body>
+</html>
